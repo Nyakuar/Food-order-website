@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="./Style/styles-2.css">
+    <link rel="stylesheet" href="./Style/styles.css">
+</head>
+<body>
+    
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active dot"><p>.</p></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" class="myLink">
+    <a href="./index.html" class="nav__">Home</a>
+    <a href="./login-1.html" class="nav__">Get A Meal</a>
+    <a href="./login.html" class="nav__">Login</a>
+    <a href="./login-1.html" class="nav__">Order A Meal</a>
+    <a href="./checkout.html" class="nav__">Check Out</a>
+    <a href="./payment method.html" class="nav__">Payment Method</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <!-- <i class="fa fa-bars"></i> -->
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+  </a>
+</div>
+
+
+    <div class="pay-now-con">
+        <div class="body-con">
+            <div class="home-btn"><a href="./index.html"><img src="./images/home_icon - yellow.svg"></a></div>
+            <div  class="y-btn"><a href="#">X</a></div>
+            <div class="okay-icon">
+                <img src="./images/ticked-green.svg" alt="okay" class="image-ticked">
+            </div>
+            <h1 class="payment-success">Payment Successful</h1>
+            <p class="payment-thanks">Thank you for your order!</p>
+            <p class="order-div">Order number: <span  class="order-num">B12556245</span></p>
+        
+            <p class="payment-last">Check your inbox shortly for a confirmation email.</p>
+        
+            <a href="./index.html" class="payment-last__a">View other details > </a>
+           </div>
+           <!-- <button class="confirm-pay__btn">
+               <a href="#">DONE</a>
+           </button> -->
+    </div>
+   <div class="payment-con">
+    <header class="top-payment">
+        <!-- <p class="arrow"><a href="#">&#8592;</a></p> -->
+        <h1>Payment Method</h1>
+    </header>
+    <div class="item-info">
+        <p>Item(3)</p>
+        <p class="cost">$100.00</p>
+    </div>
+
+    <div class="item-info">
+        <p>Shipping</p>
+        <p class="shipping-cost">$0.00</p>
+    </div>
+
+    <hr style="margin: 1rem;">
+    <div class="item-info">
+        <p>Total Order</p>
+        <p class="total-cost">$770.00</p>
+    </div>
+    
+
+     <p class=" card-text">Add new cards <span>&plus;</span></p>
+
+    <div class="card-info">
+        <div class="color">
+          <div class="orangered"></div>
+          <div class="yellow"></div>
+        </div>
+        <p class="card-blank">**** **** **** 1234</p>
+        <p class="checked"><img src="./images/ticked.svg" alt="checked"></p>
+    </div>
+
+    <p class="master-card"> Master Card</p>
+
+    <form action="input" class="form">
+        <div class="card-flex">
+            <input type="number" name="number" id="exp-date" placeholder="01/23" class="input-box">
+            <input type="number" name="number" id="cvv" placeholder="***" class="input-box">
+           </div>
+    </form>
+    <button class="btn-checkout btn-mid"><a href="#">Confirm payment</a></button>
+   </div>
+</body>
+<script src="./Js/script.js"></script>
+</html>

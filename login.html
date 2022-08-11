@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Style/styles.css">
+    <link rel="stylesheet" href="./Style/modal.css">
+</head>
+<body>
+  
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active dot"><p>.</p></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" class="myLink">
+    <a href="./index.html" class="nav__">Home</a>
+    <a href="./login-1.html" class="nav__">Get A Meal</a>
+    <a href="./login.html" class="nav__">Login</a>
+    <a href="./get a meal.html" class="nav__">Order A Meal</a>
+    <a href="./checkout.html" class="nav__">Check Out</a>
+    <a href="./payment method.html" class="nav__">Payment Method</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <!-- <i class="fa fa-bars"></i> -->
+    <div class="lines"></div>
+    <div class="lines"></div>
+    <div class="lines"></div>
+  </a>
+</div>
+
+
+    <div class="hamburger-btn">.  </div>
+    <img src="./images/profile-icon.svg" alt="customer" class="customer-pic">
+    <form class="form-1">
+       <div class="firstname">
+         <label for="firstname" >Enter Name</label>
+         <input type="text" name="text" id="fname">
+       </div>
+
+       <div class="lastname">
+        <label for="email" class="s">Enter Email Address</label>
+        <input type="email" name="email" id="email">
+       </div>
+
+       <div class="lastname">
+        <label for="password">Enter Your Password</label>
+        <input type="password" name="password" id="password">
+       </div>
+    </form>
+
+    <button class="sign-up-btn"><a href="./get a meal.html">Login</a></button>
+</body>
+<script src="./Js/script.js"></script>
+</html>

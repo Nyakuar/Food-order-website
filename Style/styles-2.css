@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,200&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container-box{
+    display: flex;
+    flex-direction: column;
+    /* width: 390px; */
+    }
+
+.head-one{
+    display: flex;
+    flex-direction: row;
+    /* margin:4rem 0 0 4rem; */
+    /* justify-content: space-evenly; */
+    align-content: space-around;
+    justify-content: space-between;
+    margin: 25px 15px;
+    
+}
+
+.head-one > img{
+    /* margin-top: 0.4rem; */
+    width: 25px;
+}
+.head-one > p{
+    text-transform: capitalize;
+    font-weight: bolder;
+    /* text-align: center; */
+    display: flex;
+    align-content: center;
+    /* padding-top: 0.5rem; */
+}
+.hamb-btn{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 0.6rem; */
+    align-content: center;
+    justify-content: center;
+
+   
+}
+.hamburger-btn{
+    background: rgb(99, 96, 96);
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 0.1rem;
+}
+.icon-head{
+    display: flex;
+    width: 100%;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+    align-content: stretch; 
+    padding: 0 1rem;
+}
+
+.icon-head > img{
+border:  #CCC8C8 2px solid;
+border-radius: 3px;
+height: 30px;
+width: 50px;
+}
+
+.home-after:hover{
+border:  #FC8B0A 2px solid; 
+}
+
+.toast-bread,
+.pasta,
+.cookie,
+.salad{
+    border: 1px solid #b8b3b3;
+    box-shadow: 1px 1px 1px  #b8b3b3;
+    border-radius: 8px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.4rem;
+}
+.empty{
+    border: 1px solid coral;
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+}
+.empty-dot{
+    width: 12px;
+    background: coral;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+
+}
+.price{
+    font-size: 12px;
+    margin-left: 0.2rem;
+    position: relative;
+    top: 1.5rem;
+}
+.price-col{
+    color: coral;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 0.3rem;
+}
+.toast-bread > img,
+.pasta > img,
+.cookie > img,
+.salad > img{
+    display: flex;
+    justify-content: space-evenly ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 1rem;
+}
+.fav{
+    height: 20px;
+}
+.items{
+    display: grid;
+    grid-gap: 0.4rem;
+    grid-template-columns: auto  auto;
+    grid-template-rows: 200px  200px;
+    margin: 0 1rem;
+    
+}
+
+.add-icon{
+    width: 20px;
+    height: 20px;
+    background: #FC8B0A;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    position: relative;
+    left: 8rem;
+    bottom: 0.2rem;
+}
+.plus-btn{
+    position: relative;
+    bottom: 8px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FC8B0A;
+    height: 35px;
+    margin: 2rem 1rem 0.5rem 1rem;
+    border-radius: 5px 5px 30px 30px;
+}
+.price-bottom{ 
+    padding:0.2rem 1rem;
+    font-weight: bolder;
+    color: whitesmoke;
+
+}
+.color-add-btn{
+    background: #CCC8C8;
+}
+.btn-checkout{
+    background: #FC8B0A;
+    margin: 3rem auto 3rem auto;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.btn-checkout > a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top-payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.top-payment > h1{
+    font-size: 1.2rem;
+}
+
+.item-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.cost,
+.shipping-cost,
+.total-cost{
+    font-weight: bolder;
+}
+.add-card{
+    margin: 2rem;
+    position: relative;
+    top: 2rem;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem 1rem;
+
+}
+.color{
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+
+}
+.orangered{
+    background: orangered;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.yellow{
+    background: orange;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 7px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.checked{
+    width: 1.5rem;
+}
+.master-card{
+    text-align: center;
+}
+.card-flex{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.input-box{
+    margin: 1rem;
+    border: 1px solid #f5afaf;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn-mid{
+   display: flex;
+   align-content: center;
+}
+.btn-mid >a{
+    border: none;
+    outline: none;
+}
+.card-text{
+   border: 1px solid #f5afaf;
+   border-radius: 10px;
+   width: 50%;
+   text-align: center;
+   position: relative;
+   left: 25px;
+   top: 30px;
+   margin-bottom: 6rem;
+}
+.card-text > span{
+    position: relative;
+    left: 10px;
+}
+.top-checkout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin: 1rem;
+
+}
+.arrow > * {
+    text-decoration: none;
+    font-weight: bolder;
+    position: relative;
+    top: 2px;
+
+}
+.check-out{
+font-size: 1.3rem;
+margin-left: 1.6rem;
+}
+
+.delivery-method{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* position: relative;
+    right: 4.1rem; */
+    margin-bottom: 3rem;
+    margin-right: 5.5rem;
+    
+}
+.delivery-method > p > span > .img{
+    height: 12px;
+    width: 12px;
+    margin-left: 0.3rem;
+}
+
+.circle-pickup{
+   height: 10px;
+   width: 10px;
+   display: inline-block;
+   background: grey;
+   border-radius: 50%;
+   margin-left: 0.3rem;
+}
+
+.form-input{
+    margin: 1rem;
+    margin-left: 2.7rem;
+}
+
+#States,input{
+    width: 90%;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 3px;
+    border: 1px solid #d4d3d3;
+}
+
+label{
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 1rem 0;
+
+    display: inline-block;
+}
+
+option{
+    background: #FC8B0A;
+    color: whitesmoke;
+}
+.last_paynow > button{
+    padding: 0.5rem 3.5rem;
+    border: none;
+    background: #f58302;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.btn_div{
+    width: 50%;
+    margin: 3rem auto;
+}
+
+  /* Style the navigation menu */
+.topnav {
+    display: flex;
+    overflow: hidden;
+    background-color: #FC8B0A;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    margin: 1rem 0;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: #FC8B0A;
+  }
+  a.logo{
+      background-color: #979592;
+  }
+  .mylink{
+    background-color: #979592;
+  }
+
+  .lines{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 6px;
+      width: 30px;
+      background: #f4f7f0;
+      padding: 2px;
+      margin: 5px;
+      border-radius: 5px;
+      position: relative;
+      bottom: 10px;
+  }
+  .dot p{
+      color:#FC8B0A;
+  }
+  a > .icon{
+    background-color: #979592;
+    display: flex;
+    height: 30px;
+  }
+.nav__{
+    background: #005490;
+    width: 110%;
+    border-radius: 5px;
+    padding-left: 0.6rem;
+}
